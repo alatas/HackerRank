@@ -11,7 +11,7 @@ My solutions to HackerRank challenges
 ### Directory Structure
 
 Item | Description
-- | -
+---- | -----------
 UnitTest.vb | Unit tests main
 Challenges\ | Root folder for challenges
 Challenges\Challenges.xml | Definition file for challenges
@@ -22,4 +22,4 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
-1. 12c0a60708a37a511b7897cc3afb46a628ad6ccd - Added Morgan and a String
+1. [Added Morgan and a String](https://github.com/alatas/HackerRank/commit/12c0a60708a37a511b7897cc3afb46a628ad6ccd)
