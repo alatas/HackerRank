@@ -55,6 +55,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -87,6 +88,7 @@
   <ItemGroup>
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
+    <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -140,7 +142,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges\MorganAndAString\Out\Out7.txt" />
+    <Content Include="Challenges\TwoTwo\In\In0.txt" />
+    <Content Include="Challenges\TwoTwo\In\In1.txt" />
+    <Content Include="Challenges\TwoTwo\In\In8.txt" />
+    <Content Include="Challenges\TwoTwo\Out\Out0.txt" />
+    <Content Include="Challenges\TwoTwo\Out\Out1.txt" />
+    <Content Include="Challenges\TwoTwo\Out\Out8.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

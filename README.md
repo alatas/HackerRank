@@ -6,6 +6,7 @@ My solutions to HackerRank challenges
 #### Algorithms
 ##### Strings
 - [x] Morgan and a String (Score: 100)
+- [x] Two Two (Score: 150)
 
 ---
 ### Directory Structure
@@ -22,4 +23,5 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
-1. [Added Morgan and a String](https://github.com/alatas/HackerRank/commit/12c0a60708a37a511b7897cc3afb46a628ad6ccd)
+1. Added [Morgan and a String](https://github.com/alatas/HackerRank/commit/12c0a60708a37a511b7897cc3afb46a628ad6ccd)
+2. Added [Two Two](https://github.com/alatas/HackerRank/commit/12c0a60708a37a511b7897cc3afb46a628ad6ccd),and small changes

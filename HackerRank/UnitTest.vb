@@ -16,8 +16,8 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeOneInput()
         '-- CHANGE THIS --
-        Const ChallengeId = "MorganAndAString"
-        Const TestId = "10"
+        Const ChallengeId = "TwoTwo"
+        Const TestId = "8"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
@@ -35,12 +35,12 @@ Imports System.Reflection
         Dim outFile As New FileInfo(Path.Combine(folder.FullName, $"Out\Out{TestId}.txt"))
         If Not outFile.Exists Then Assert.Fail($"Test output file cannot be found! {outFile.FullName}")
 
-        TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile)
+        Assert.IsTrue(TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile))
     End Sub
 
     <TestMethod()> Public Sub TestOneChallengeAllInputs()
         '-- CHANGE THIS --
-        Const ChallengeId = "MorganAndAString"
+        Const ChallengeId = "TwoTwo"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
@@ -59,7 +59,7 @@ Imports System.Reflection
             Dim outFile As New FileInfo(Path.Combine(folder.FullName, $"Out\Out{inFile.Name.Substring(2)}"))
             If Not outFile.Exists Then Assert.Fail($"Test output file cannot be found! {outFile.FullName}")
 
-            TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile)
+            Assert.IsTrue(TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile))
         Next
     End Sub
 
@@ -78,7 +78,7 @@ Imports System.Reflection
                 Dim outFile As New FileInfo(Path.Combine(folder.FullName, $"Out\Out{inFile.Name.Substring(2)}"))
                 If Not outFile.Exists Then Assert.Fail($"Test output file cannot be found! {outFile.FullName}")
 
-                TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile)
+                Assert.IsTrue(TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile))
             Next
         Next
     End Sub
@@ -98,11 +98,11 @@ Imports System.Reflection
             Dim outFile As New FileInfo(Path.Combine(folder.FullName, $"Out\Out{inFile.Name.Substring(2)}"))
 
             If Not outFile.Exists Then Assert.Fail($"Test output file cannot be found! {outFile.FullName}")
-            TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile)
+            Assert.IsTrue(TestIt(def, [Delegate].CreateDelegate(GetType(Action), method), inFile, outFile))
         Next
     End Sub
 
-    Private Function TestIt(def As ChallengeDef, method As Action, inFile As FileInfo, outFile As FileInfo)
+    Private Function TestIt(def As ChallengeDef, method As Action, inFile As FileInfo, outFile As FileInfo) As Boolean
         Dim resultFile As String = $"{TestContext.TestResultsDirectory}\Result_{outFile.Name}"
 
         Debug.WriteLine($"Testing [{def.Name}] {inFile.Name} -> {outFile.Name}")
