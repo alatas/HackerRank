@@ -1,0 +1,8 @@
+/*This is a program to calculate area of a circle after getting the radius as input from the user*/
+//variables for storing radius and area
+//entering the value for radius of the circle as float data type
+//Mathematical function pow is used to calculate square of radius
+//displaying the results
+/*A test run for the program was carried out and following output was observed
+If 50 is the radius of the circle whose area is to be calculated
+The area of the circle is 7857.1429*/

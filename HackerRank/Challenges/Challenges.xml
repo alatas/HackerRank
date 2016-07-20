@@ -3,4 +3,11 @@
   <challenge Id="MorganAndAString" Name="Morgan and a String" Link="https://www.hackerrank.com/challenges/morgan-and-a-string" />
   <challenge Id="TwoTwo" Name="Two Two" Link="https://www.hackerrank.com/challenges/two-two" />
   <challenge Id="SherlockAndValidString" Name="Sherlock and Valid String" Link="http://www.hackerrank.com/challenges/sherlock-and-valid-string" />
+  <challenge Id="DetectHtmlLinks" Name="Detect HTML links" Link="https://www.hackerrank.com/challenges/detect-html-links" />
+  <challenge Id="FindAWord" Name="Find a Word" Link="https://www.hackerrank.com/challenges/find-a-word" />
+  <challenge Id="DetectTheEmailAddresses" Name="Detect the Email Addresses" Link="https://www.hackerrank.com/challenges/detect-the-email-addresses" />
+  <challenge Id="DetectTheDomainName" Name="Detect the Domain Name" Link="https://www.hackerrank.com/challenges/detect-the-domain-name" />
+  <challenge Id="IdeIdentifyingComments" Name="Building a Smart IDE: Identifying comments" Link="https://www.hackerrank.com/challenges/ide-identifying-comments" />
+  <challenge Id="DetectingValidLatitudeAndLongitude" Name="Detecting Valid Latitude and Longitude Pairs" Link="https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude" />
+  <challenge Id="ProgrammingLanguageDetection" Name="Building a Smart IDE: Programming Language Detection" Link="https://www.hackerrank.com/challenges/programming-language-detection" />
 </challenges>

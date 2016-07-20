@@ -7,7 +7,7 @@ Write-Progress -Activity "Challenge download starting" -Status "Downloading info
 $WebId=$Uri -replace "https?\:\/\/.*?hackerrank.com\/challenges\/([0-9A-Za-z\-]*?)","$1"
 if ($WebId -eq $Uri) {Throw "Uri is not valid: $($Uri)"}
 
-$Id =[Regex]::Replace($WebId, '(^|\-)(.)', { param($m) $m.Value.ToUpper().Replace('-','') })
+$Id =[Regex]::Replace($WebId, '(^|\-)(.)', { param($m) $m.Value.ToUpperInvariant().Replace('-','') })
 
 $model=Invoke-RestMethod -Method Get -Uri https://www.hackerrank.com/rest/contests/master/challenges/$WebId | Select -ExpandProperty model
 

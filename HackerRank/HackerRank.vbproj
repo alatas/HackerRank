@@ -87,7 +87,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Challenges\ChallengeDef.vb" />
+    <Compile Include="Challenges\DetectHtmlLinks\Code.vb" />
+    <Compile Include="Challenges\DetectingValidLatitudeAndLongitude\Code.vb" />
+    <Compile Include="Challenges\DetectTheDomainName\Code.vb" />
+    <Compile Include="Challenges\DetectTheEmailAddresses\Code.vb" />
+    <Compile Include="Challenges\FindAWord\Code.vb" />
+    <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
+    <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
@@ -129,6 +136,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Challenges\Challenges.xml" />
+    <Content Include="Challenges\DetectHtmlLinks\In\In0.txt" />
+    <Content Include="Challenges\DetectHtmlLinks\Out\Out0.txt" />
+    <Content Include="Challenges\DetectingValidLatitudeAndLongitude\In\In0.txt" />
+    <Content Include="Challenges\DetectingValidLatitudeAndLongitude\Out\Out0.txt" />
+    <Content Include="Challenges\DetectTheDomainName\In\In0.txt" />
+    <Content Include="Challenges\DetectTheDomainName\Out\Out0.txt" />
+    <Content Include="Challenges\DetectTheEmailAddresses\In\In0.txt" />
+    <Content Include="Challenges\DetectTheEmailAddresses\Out\Out0.txt" />
+    <Content Include="Challenges\FindAWord\In\In0.txt" />
+    <Content Include="Challenges\FindAWord\Out\Out0.txt" />
     <Content Include="Challenges\MorganAndAString\In\In10.txt" />
     <Content Include="Challenges\MorganAndAString\In\In2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -143,6 +160,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges\MorganAndAString\Out\Out7.txt" />
+    <Content Include="Challenges\ProgrammingLanguageDetection\In\In0.txt" />
+    <Content Include="Challenges\ProgrammingLanguageDetection\Out\Out0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In2.txt" />
     <Content Include="Challenges\SherlockAndValidString\Out\Out0.txt" />
@@ -154,7 +173,10 @@
     <Content Include="Challenges\TwoTwo\Out\Out1.txt" />
     <Content Include="Challenges\TwoTwo\Out\Out8.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Challenges\IdeIdentifyingComments\In\" />
+    <Folder Include="Challenges\IdeIdentifyingComments\Out\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
