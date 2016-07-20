@@ -16,8 +16,8 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeOneInput()
         '-- CHANGE THIS --
-        Const ChallengeId = "TwoTwo"
-        Const TestId = "8"
+        Const ChallengeId = "SherlockAndValidString"
+        Const TestId = "2"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
@@ -40,7 +40,7 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeAllInputs()
         '-- CHANGE THIS --
-        Const ChallengeId = "TwoTwo"
+        Const ChallengeId = "SherlockAndValidString"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault

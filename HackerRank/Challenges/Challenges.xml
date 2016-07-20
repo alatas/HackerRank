@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <challenges>
-  <challenge Id = "MorganAndAString" Name = "Morgan and a String" Link = "https://www.hackerrank.com/challenges/morgan-and-a-string" />
-  <challenge Id = "TwoTwo" Name = "Two Two" Link = "https://www.hackerrank.com/challenges/two-two" />
+  <challenge Id="MorganAndAString" Name="Morgan and a String" Link="https://www.hackerrank.com/challenges/morgan-and-a-string" />
+  <challenge Id="TwoTwo" Name="Two Two" Link="https://www.hackerrank.com/challenges/two-two" />
+  <challenge Id="SherlockAndValidString" Name="Sherlock and Valid String" Link="http://www.hackerrank.com/challenges/sherlock-and-valid-string" />
 </challenges>

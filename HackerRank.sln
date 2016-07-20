@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HackerRank", "HackerRank\HackerRank.vbproj", "{F9A40705-9BD4-45D8-8098-34D4E8A4B5E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B37C7C55-0DF7-460A-B170-DD9FB86B7596}"
 	ProjectSection(SolutionItems) = preProject
+		DownloadChallenge.ps1 = DownloadChallenge.ps1
 		README.md = README.md
 	EndProjectSection
 EndProject

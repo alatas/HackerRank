@@ -88,6 +88,7 @@
   <ItemGroup>
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
+    <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -142,6 +143,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges\MorganAndAString\Out\Out7.txt" />
+    <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
+    <Content Include="Challenges\SherlockAndValidString\In\In2.txt" />
+    <Content Include="Challenges\SherlockAndValidString\Out\Out0.txt" />
+    <Content Include="Challenges\SherlockAndValidString\Out\Out2.txt" />
     <Content Include="Challenges\TwoTwo\In\In0.txt" />
     <Content Include="Challenges\TwoTwo\In\In1.txt" />
     <Content Include="Challenges\TwoTwo\In\In8.txt" />
