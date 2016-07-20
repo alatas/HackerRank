@@ -8,6 +8,7 @@ My solutions to HackerRank challenges
 - [x] Morgan and a String (Score: 100)
 - [x] Two Two (Score: 150)
 - [x] Sherlock and Valid String (Score: 100)
+
 #### Regex
 ##### Applications
 - [x] Detect HTML links (Score: 10)
