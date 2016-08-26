@@ -10,4 +10,5 @@
   <challenge Id="IdeIdentifyingComments" Name="Building a Smart IDE: Identifying comments" Link="https://www.hackerrank.com/challenges/ide-identifying-comments" />
   <challenge Id="DetectingValidLatitudeAndLongitude" Name="Detecting Valid Latitude and Longitude Pairs" Link="https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude" />
   <challenge Id="ProgrammingLanguageDetection" Name="Building a Smart IDE: Programming Language Detection" Link="https://www.hackerrank.com/challenges/programming-language-detection" />
+  <challenge Id="AshtonAndString" Name="Ashton and String" Link="https://www.hackerrank.com/challenges/ashton-and-string" />
 </challenges>

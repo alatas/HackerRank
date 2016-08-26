@@ -86,6 +86,7 @@
     <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\DetectHtmlLinks\Code.vb" />
     <Compile Include="Challenges\DetectingValidLatitudeAndLongitude\Code.vb" />
@@ -135,6 +136,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Challenges\AshtonAndString\In\In0.txt" />
+    <Content Include="Challenges\AshtonAndString\In\In3.txt" />
+    <Content Include="Challenges\AshtonAndString\In\In5.txt" />
+    <Content Include="Challenges\AshtonAndString\In\In8.txt" />
+    <Content Include="Challenges\AshtonAndString\Out\Out0.txt" />
+    <Content Include="Challenges\AshtonAndString\Out\Out3.txt" />
+    <Content Include="Challenges\AshtonAndString\Out\Out5.txt" />
+    <Content Include="Challenges\AshtonAndString\Out\Out8.txt" />
     <Content Include="Challenges\Challenges.xml" />
     <Content Include="Challenges\DetectHtmlLinks\In\In0.txt" />
     <Content Include="Challenges\DetectHtmlLinks\Out\Out0.txt" />
