@@ -16,8 +16,8 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeOneInput()
         '-- CHANGE THIS --
-        Const ChallengeId = "AshtonAndString"
-        Const TestId = "3"
+        Const ChallengeId = "DiagonalDifference"
+        Const TestId = "0"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault

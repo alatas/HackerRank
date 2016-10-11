@@ -11,4 +11,8 @@
   <challenge Id="DetectingValidLatitudeAndLongitude" Name="Detecting Valid Latitude and Longitude Pairs" Link="https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude" />
   <challenge Id="ProgrammingLanguageDetection" Name="Building a Smart IDE: Programming Language Detection" Link="https://www.hackerrank.com/challenges/programming-language-detection" />
   <challenge Id="AshtonAndString" Name="Ashton and String" Link="https://www.hackerrank.com/challenges/ashton-and-string" />
+  <challenge Id="SimpleArraySum" Name="Simple Array Sum" Link="https://www.hackerrank.com/challenges/simple-array-sum" />
+  <challenge Id="CompareTheTriplets" Name="Compare the Triplets" Link="https://www.hackerrank.com/challenges/compare-the-triplets" />
+  <challenge Id="AVeryBigSum" Name="A Very Big Sum" Link="https://www.hackerrank.com/challenges/a-very-big-sum" />
+  <challenge Id="DiagonalDifference" Name="Diagonal Difference" Link="https://www.hackerrank.com/challenges/diagonal-difference" />
 </challenges>

@@ -70,4 +70,5 @@ End Module
 "@
 Set-Content -Path $PSScriptRoot\HackerRank\Challenges\$Id\Code.vb -Value $code
 
-Write-Progress -Activity "Downloading $name" -Status "Completed" -Completed
+Write-Progress -Activity "Downloading $name" -PercentComplete 100 -Status "Completed" 
+Write-Progress -Activity "Downloading $name" -Completed
