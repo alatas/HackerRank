@@ -16,8 +16,8 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeOneInput()
         '-- CHANGE THIS --
-        Const ChallengeId = "DiagonalDifference"
-        Const TestId = "0"
+        Const ChallengeId = "CircularArrayRotation"
+        Const TestId = "5"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
@@ -40,7 +40,7 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeAllInputs()
         '-- CHANGE THIS --
-        Const ChallengeId = "AshtonAndString"
+        Const ChallengeId = "MaximumPerimeterTriangle"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault

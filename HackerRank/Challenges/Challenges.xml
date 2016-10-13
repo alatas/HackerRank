@@ -15,4 +15,9 @@
   <challenge Id="CompareTheTriplets" Name="Compare the Triplets" Link="https://www.hackerrank.com/challenges/compare-the-triplets" />
   <challenge Id="AVeryBigSum" Name="A Very Big Sum" Link="https://www.hackerrank.com/challenges/a-very-big-sum" />
   <challenge Id="DiagonalDifference" Name="Diagonal Difference" Link="https://www.hackerrank.com/challenges/diagonal-difference" />
+  <challenge Id="PlusMinus" Name="Plus Minus" Link="https://www.hackerrank.com/challenges/plus-minus" />
+  <challenge Id="Staircase" Name="Staircase" Link="https://www.hackerrank.com/challenges/staircase" />
+  <challenge Id="TimeConversion" Name="Time Conversion" Link="https://www.hackerrank.com/challenges/time-conversion" />
+  <challenge Id="MaximumPerimeterTriangle" Name="Maximum Perimeter Triangle" Link="https://www.hackerrank.com/challenges/maximum-perimeter-triangle" />
+  <challenge Id="CircularArrayRotation" Name="Circular Array Rotation" Link="https://www.hackerrank.com/challenges/circular-array-rotation" />
 </challenges>

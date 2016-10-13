@@ -89,6 +89,7 @@
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
+    <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
     <Compile Include="Challenges\CompareTheTriplets\Code.vb" />
     <Compile Include="Challenges\DetectHtmlLinks\Code.vb" />
     <Compile Include="Challenges\DetectingValidLatitudeAndLongitude\Code.vb" />
@@ -97,10 +98,14 @@
     <Compile Include="Challenges\DiagonalDifference\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
+    <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
+    <Compile Include="Challenges\PlusMinus\Code.vb" />
     <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
+    <Compile Include="Challenges\Staircase\Code.vb" />
+    <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -151,6 +156,10 @@
     <Content Include="Challenges\AVeryBigSum\In\In0.txt" />
     <Content Include="Challenges\AVeryBigSum\Out\Out0.txt" />
     <Content Include="Challenges\Challenges.xml" />
+    <Content Include="Challenges\CircularArrayRotation\In\In15.txt" />
+    <Content Include="Challenges\CircularArrayRotation\In\In5.txt" />
+    <Content Include="Challenges\CircularArrayRotation\Out\Out15.txt" />
+    <Content Include="Challenges\CircularArrayRotation\Out\Out5.txt" />
     <Content Include="Challenges\CompareTheTriplets\In\In0.txt" />
     <Content Include="Challenges\CompareTheTriplets\Out\Out0.txt" />
     <Content Include="Challenges\DetectHtmlLinks\In\In0.txt" />
@@ -165,6 +174,10 @@
     <Content Include="Challenges\DiagonalDifference\Out\Out0.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
+    <Content Include="Challenges\MaximumPerimeterTriangle\In\In0.txt" />
+    <Content Include="Challenges\MaximumPerimeterTriangle\In\In1.txt" />
+    <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out0.txt" />
+    <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out1.txt" />
     <Content Include="Challenges\MorganAndAString\In\In10.txt" />
     <Content Include="Challenges\MorganAndAString\In\In2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -179,6 +192,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges\MorganAndAString\Out\Out7.txt" />
+    <Content Include="Challenges\PlusMinus\In\In1.txt" />
+    <Content Include="Challenges\PlusMinus\Out\Out1.txt" />
     <Content Include="Challenges\ProgrammingLanguageDetection\In\In0.txt" />
     <Content Include="Challenges\ProgrammingLanguageDetection\Out\Out0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
@@ -187,6 +202,10 @@
     <Content Include="Challenges\SherlockAndValidString\Out\Out2.txt" />
     <Content Include="Challenges\SimpleArraySum\In\In0.txt" />
     <Content Include="Challenges\SimpleArraySum\Out\Out0.txt" />
+    <Content Include="Challenges\Staircase\In\In1.txt" />
+    <Content Include="Challenges\Staircase\Out\Out1.txt" />
+    <Content Include="Challenges\TimeConversion\In\In0.txt" />
+    <Content Include="Challenges\TimeConversion\Out\Out0.txt" />
     <Content Include="Challenges\TwoTwo\In\In0.txt" />
     <Content Include="Challenges\TwoTwo\In\In1.txt" />
     <Content Include="Challenges\TwoTwo\In\In8.txt" />

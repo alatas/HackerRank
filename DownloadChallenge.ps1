@@ -2,6 +2,16 @@ param(
     [Parameter(Mandatory=$true)][string]$Uri=""
 )
 
+function Get-CaseDest {
+param(
+    [string] $name,
+    [string] $dest
+    )
+    $name=$name -replace "(output|input)(\d\d).txt",'$2' 
+    [int]$part=$name
+    return "$PSScriptRoot\HackerRank\Challenges\$Id\$dest\$dest$part.txt"
+}
+
 Write-Progress -Activity "Challenge download starting" -Status "Downloading info" -PercentComplete 0
 
 $WebId=$Uri -replace "https?\:\/\/.*?hackerrank.com\/challenges\/([0-9A-Za-z\-]*?)","$1"
@@ -28,12 +38,12 @@ New-Item $PSScriptRoot\HackerRank\Challenges\$Id\Out -ItemType Directory -Force 
 
 
 Write-Progress -Activity "Downloading $name" -Status "Moving Test Cases" -PercentComplete 40
-Copy-Item $env:TEMP\$Id\input\input00.txt $PSScriptRoot\HackerRank\Challenges\$Id\In\In0.txt -Force
-Copy-Item $env:TEMP\$Id\output\output00.txt $PSScriptRoot\HackerRank\Challenges\$Id\Out\Out0.txt -Force
-
+Get-ChildItem -Path $env:TEMP\$Id\input\ -Filter *.txt | %{$out=Get-CaseDest -name $_.Name -dest In ; Copy-Item $_.FullName -Destination $out}
+Get-ChildItem -Path $env:TEMP\$Id\output\ -Filter *.txt | %{$out=Get-CaseDest -name $_.Name -dest Out ; Copy-Item $_.FullName -Destination $out}
 
 Write-Progress -Activity "Downloading $name" -Status "Adding to defs" -PercentComplete 70
 [xml] $doc = Get-Content("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
+If ($doc.SelectSingleNode("//challenge[@Id=$Id]") -eq $null){
 $child = $doc.CreateElement("challenge")
 $att1=$doc.CreateAttribute("Id")
 $att1.Value=$Id
@@ -49,6 +59,7 @@ $child.Attributes.Append($att3)
 
 $doc.DocumentElement.AppendChild($child)
 $doc.Save("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
+}
 
 Write-Progress -Activity "Downloading $name" -Status "Adding code.vb" -PercentComplete 90
 

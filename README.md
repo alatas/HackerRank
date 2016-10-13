@@ -9,6 +9,11 @@ My solutions to HackerRank challenges
 - [x] Compare the Triplets (Score: 10)
 - [x] A Very Big Sum (Score: 10)
 - [x] Diagonal Difference (Score: 10)
+- [x] Plus Minus (Score: 10)
+- [x] Staircase (Score: 10)
+- [x] Time Conversion (Score: 15)
+- [x] Maximum Perimeter Triangle (Score: 20)
+- [x] Circular Array Rotation (Score: 20)
 
 
 ##### Strings
@@ -42,9 +47,10 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
-1. Added [Morgan and a String](https://www.hackerrank.com/challenges/morgan-and-a-string)
-2. Added [Two Two](https://www.hackerrank.com/challenges/two-two),and small changes
-3. Added [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) and download challenge ps script
-4. Added [Detect HTML links](https://www.hackerrank.com/challenges/detect-html-links), [Find a Word](https://www.hackerrank.com/challenges/find-a-word), [Detect the Email Addresses](https://www.hackerrank.com/challenges/detect-the-email-addresses), [Detect the Domain Name](https://www.hackerrank.com/challenges/detect-the-domain-name), [Building a Smart IDE: Identifying comments](https://www.hackerrank.com/challenges/ide-identifying-comments), [Detecting Valid Latitude and Longitude Pairs](https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude), [Building a Smart IDE: Programming Language Detection](https://www.hackerrank.com/challenges/programming-language-detection) and fixed download challenge script
-5. Added [Ashton and String](https://www.hackerrank.com/challenges/ashton-and-string)
-6. Added [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum), [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets), [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum) and [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)
+- v7 Changed download script a little bit, added [Plus Minus](https://www.hackerrank.com/challenges/plus-minus), [Staircase](https://www.hackerrank.com/challenges/staircase), [Time Conversion](https://www.hackerrank.com/challenges/time-conversion), [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle), [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation)
+- v6 Added [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum), [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets), [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum) and [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)
+- v5 Added [Ashton and String](https://www.hackerrank.com/challenges/ashton-and-string)
+- v4 Added [Detect HTML links](https://www.hackerrank.com/challenges/detect-html-links), [Find a Word](https://www.hackerrank.com/challenges/find-a-word), [Detect the Email Addresses](https://www.hackerrank.com/challenges/detect-the-email-addresses), [Detect the Domain Name](https://www.hackerrank.com/challenges/detect-the-domain-name), [Building a Smart IDE: Identifying comments](https://www.hackerrank.com/challenges/ide-identifying-comments), [Detecting Valid Latitude and Longitude Pairs](https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude), [Building a Smart IDE: Programming Language Detection](https://www.hackerrank.com/challenges/programming-language-detection) and fixed download challenge script
+- v3 Added [Sherlock and Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string) and download challenge ps script
+- v2 Added [Two Two](https://www.hackerrank.com/challenges/two-two),and small changes
+- v1 Added [Morgan and a String](https://www.hackerrank.com/challenges/morgan-and-a-string)
