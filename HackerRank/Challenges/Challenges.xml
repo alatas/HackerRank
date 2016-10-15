@@ -20,4 +20,8 @@
   <challenge Id="TimeConversion" Name="Time Conversion" Link="https://www.hackerrank.com/challenges/time-conversion" />
   <challenge Id="MaximumPerimeterTriangle" Name="Maximum Perimeter Triangle" Link="https://www.hackerrank.com/challenges/maximum-perimeter-triangle" />
   <challenge Id="CircularArrayRotation" Name="Circular Array Rotation" Link="https://www.hackerrank.com/challenges/circular-array-rotation" />
+  <challenge Id="Kangaroo" Name="Kangaroo" Link="https://www.hackerrank.com/challenges/kangaroo" />
+  <challenge Id="DivisibleSumPairs" Name="Divisible Sum Pairs" Link="https://www.hackerrank.com/challenges/divisible-sum-pairs" />
+  <challenge Id="AngryProfessor" Name="Angry Professor" Link="https://www.hackerrank.com/challenges/angry-professor" />
+  <challenge Id="CutTheSticks" Name="Cut the sticks" Link="https://www.hackerrank.com/challenges/cut-the-sticks" />
 </challenges>

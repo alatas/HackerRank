@@ -86,18 +86,22 @@
     <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\AngryProfessor\Code.vb" />
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
     <Compile Include="Challenges\CompareTheTriplets\Code.vb" />
+    <Compile Include="Challenges\CutTheSticks\Code.vb" />
     <Compile Include="Challenges\DetectHtmlLinks\Code.vb" />
     <Compile Include="Challenges\DetectingValidLatitudeAndLongitude\Code.vb" />
     <Compile Include="Challenges\DetectTheDomainName\Code.vb" />
     <Compile Include="Challenges\DetectTheEmailAddresses\Code.vb" />
     <Compile Include="Challenges\DiagonalDifference\Code.vb" />
+    <Compile Include="Challenges\DivisibleSumPairs\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
+    <Compile Include="Challenges\Kangaroo\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
     <Compile Include="Challenges\PlusMinus\Code.vb" />
@@ -145,6 +149,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Challenges\AngryProfessor\In\In0.txt" />
+    <Content Include="Challenges\AngryProfessor\Out\Out0.txt" />
     <Content Include="Challenges\AshtonAndString\In\In0.txt" />
     <Content Include="Challenges\AshtonAndString\In\In3.txt" />
     <Content Include="Challenges\AshtonAndString\In\In5.txt" />
@@ -162,6 +168,10 @@
     <Content Include="Challenges\CircularArrayRotation\Out\Out5.txt" />
     <Content Include="Challenges\CompareTheTriplets\In\In0.txt" />
     <Content Include="Challenges\CompareTheTriplets\Out\Out0.txt" />
+    <Content Include="Challenges\CutTheSticks\In\In8.txt" />
+    <Content Include="Challenges\CutTheSticks\In\In9.txt" />
+    <Content Include="Challenges\CutTheSticks\Out\Out8.txt" />
+    <Content Include="Challenges\CutTheSticks\Out\Out9.txt" />
     <Content Include="Challenges\DetectHtmlLinks\In\In0.txt" />
     <Content Include="Challenges\DetectHtmlLinks\Out\Out0.txt" />
     <Content Include="Challenges\DetectingValidLatitudeAndLongitude\In\In0.txt" />
@@ -172,8 +182,18 @@
     <Content Include="Challenges\DetectTheEmailAddresses\Out\Out0.txt" />
     <Content Include="Challenges\DiagonalDifference\In\In0.txt" />
     <Content Include="Challenges\DiagonalDifference\Out\Out0.txt" />
+    <Content Include="Challenges\DivisibleSumPairs\In\In0.txt" />
+    <Content Include="Challenges\DivisibleSumPairs\In\In12.txt" />
+    <Content Include="Challenges\DivisibleSumPairs\Out\Out0.txt" />
+    <Content Include="Challenges\DivisibleSumPairs\Out\Out12.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
+    <Content Include="Challenges\Kangaroo\In\In0.txt" />
+    <Content Include="Challenges\Kangaroo\In\In1.txt" />
+    <Content Include="Challenges\Kangaroo\In\In10.txt" />
+    <Content Include="Challenges\Kangaroo\Out\Out0.txt" />
+    <Content Include="Challenges\Kangaroo\Out\Out1.txt" />
+    <Content Include="Challenges\Kangaroo\Out\Out10.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In1.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out0.txt" />

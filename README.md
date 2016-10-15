@@ -15,6 +15,11 @@ My solutions to HackerRank challenges
 - [x] Maximum Perimeter Triangle (Score: 20)
 - [x] Circular Array Rotation (Score: 20)
 
+##### Implementation
+- [x] Kangaroo (Score: 10)
+- [x] Divisible Sum Pairs (Score: 10)
+- [x] Angry Professor (Score: 20)
+- [x] Cut the sticks (Score: 25)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -47,6 +52,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v8 Added [Kangaroo](https://www.hackerrank.com/challenges/kangaroo), [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs), [Angry Professor](https://www.hackerrank.com/challenges/angry-professor), [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks)
 - v7 Changed download script a little bit, added [Plus Minus](https://www.hackerrank.com/challenges/plus-minus), [Staircase](https://www.hackerrank.com/challenges/staircase), [Time Conversion](https://www.hackerrank.com/challenges/time-conversion), [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle), [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation)
 - v6 Added [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum), [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets), [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum) and [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference)
 - v5 Added [Ashton and String](https://www.hackerrank.com/challenges/ashton-and-string)
