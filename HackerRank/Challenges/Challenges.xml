@@ -24,4 +24,7 @@
   <challenge Id="DivisibleSumPairs" Name="Divisible Sum Pairs" Link="https://www.hackerrank.com/challenges/divisible-sum-pairs" />
   <challenge Id="AngryProfessor" Name="Angry Professor" Link="https://www.hackerrank.com/challenges/angry-professor" />
   <challenge Id="CutTheSticks" Name="Cut the sticks" Link="https://www.hackerrank.com/challenges/cut-the-sticks" />
+  <challenge Id="SockMerchant" Name="Sock Merchant" Link="https://www.hackerrank.com/challenges/sock-merchant" />
+  <challenge Id="NonDivisibleSubset" Name="Non-Divisible Subset" Link="https://www.hackerrank.com/challenges/non-divisible-subset" />
+  <challenge Id="RepeatedString" Name="Repeated String" Link="https://www.hackerrank.com/challenges/repeated-string" />
 </challenges>

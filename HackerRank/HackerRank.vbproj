@@ -104,10 +104,13 @@
     <Compile Include="Challenges\Kangaroo\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
+    <Compile Include="Challenges\NonDivisibleSubset\Code.vb" />
     <Compile Include="Challenges\PlusMinus\Code.vb" />
     <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
+    <Compile Include="Challenges\RepeatedString\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
+    <Compile Include="Challenges\SockMerchant\Code.vb" />
     <Compile Include="Challenges\Staircase\Code.vb" />
     <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
@@ -212,16 +215,28 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Challenges\MorganAndAString\Out\Out7.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\In\In0.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\In\In1.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\In\In9.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\Out\Out0.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\Out\Out1.txt" />
+    <Content Include="Challenges\NonDivisibleSubset\Out\Out9.txt" />
     <Content Include="Challenges\PlusMinus\In\In1.txt" />
     <Content Include="Challenges\PlusMinus\Out\Out1.txt" />
     <Content Include="Challenges\ProgrammingLanguageDetection\In\In0.txt" />
     <Content Include="Challenges\ProgrammingLanguageDetection\Out\Out0.txt" />
+    <Content Include="Challenges\RepeatedString\In\In0.txt" />
+    <Content Include="Challenges\RepeatedString\In\In1.txt" />
+    <Content Include="Challenges\RepeatedString\Out\Out0.txt" />
+    <Content Include="Challenges\RepeatedString\Out\Out1.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In2.txt" />
     <Content Include="Challenges\SherlockAndValidString\Out\Out0.txt" />
     <Content Include="Challenges\SherlockAndValidString\Out\Out2.txt" />
     <Content Include="Challenges\SimpleArraySum\In\In0.txt" />
     <Content Include="Challenges\SimpleArraySum\Out\Out0.txt" />
+    <Content Include="Challenges\SockMerchant\In\In0.txt" />
+    <Content Include="Challenges\SockMerchant\Out\Out0.txt" />
     <Content Include="Challenges\Staircase\In\In1.txt" />
     <Content Include="Challenges\Staircase\Out\Out1.txt" />
     <Content Include="Challenges\TimeConversion\In\In0.txt" />
