@@ -23,6 +23,10 @@ My solutions to HackerRank challenges
 - [x] Sock Merchant (Score: 10)
 - [x] Non-Divisible Subset (Score: 20)
 - [x] Repeated String (Score: 20)
+- [x] Viral Advertising (Score: 15)
+- [x] Jumping on the Clouds (Score: 20)
+- [x] Bigger is Greater (Score: 35)
+- [x] Bon Appétit (Score: 10)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -55,6 +59,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v10 Added [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising), [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds), [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater), [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit)
 - v9 Added [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant), [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset), [Repeated String](https://www.hackerrank.com/challenges/repeated-string)
 - v8 Added [Kangaroo](https://www.hackerrank.com/challenges/kangaroo), [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs), [Angry Professor](https://www.hackerrank.com/challenges/angry-professor), [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks)
 - v7 Changed download script a little bit, added [Plus Minus](https://www.hackerrank.com/challenges/plus-minus), [Staircase](https://www.hackerrank.com/challenges/staircase), [Time Conversion](https://www.hackerrank.com/challenges/time-conversion), [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/maximum-perimeter-triangle), [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation)

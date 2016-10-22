@@ -40,7 +40,7 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeAllInputs()
         '-- CHANGE THIS --
-        Const ChallengeId = "RepeatedString"
+        Const ChallengeId = "BonAppetit"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault

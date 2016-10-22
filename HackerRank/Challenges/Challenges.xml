@@ -27,4 +27,8 @@
   <challenge Id="SockMerchant" Name="Sock Merchant" Link="https://www.hackerrank.com/challenges/sock-merchant" />
   <challenge Id="NonDivisibleSubset" Name="Non-Divisible Subset" Link="https://www.hackerrank.com/challenges/non-divisible-subset" />
   <challenge Id="RepeatedString" Name="Repeated String" Link="https://www.hackerrank.com/challenges/repeated-string" />
+  <challenge Id="StrangeAdvertising" Name="Viral Advertising" Link="https://www.hackerrank.com/challenges/strange-advertising" />
+  <challenge Id="JumpingOnTheClouds" Name="Jumping on the Clouds" Link="https://www.hackerrank.com/challenges/jumping-on-the-clouds" />
+  <challenge Id="BiggerIsGreater" Name="Bigger is Greater" Link="https://www.hackerrank.com/challenges/bigger-is-greater" />
+  <challenge Id="BonAppetit" Name="Bon Appétit" Link="https://www.hackerrank.com/challenges/bon-appetit" />
 </challenges>

@@ -89,6 +89,8 @@
     <Compile Include="Challenges\AngryProfessor\Code.vb" />
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
+    <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
+    <Compile Include="Challenges\BonAppetit\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
     <Compile Include="Challenges\CompareTheTriplets\Code.vb" />
@@ -101,6 +103,7 @@
     <Compile Include="Challenges\DivisibleSumPairs\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
+    <Compile Include="Challenges\JumpingOnTheClouds\Code.vb" />
     <Compile Include="Challenges\Kangaroo\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
@@ -112,6 +115,7 @@
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
     <Compile Include="Challenges\SockMerchant\Code.vb" />
     <Compile Include="Challenges\Staircase\Code.vb" />
+    <Compile Include="Challenges\StrangeAdvertising\Code.vb" />
     <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
@@ -164,6 +168,12 @@
     <Content Include="Challenges\AshtonAndString\Out\Out8.txt" />
     <Content Include="Challenges\AVeryBigSum\In\In0.txt" />
     <Content Include="Challenges\AVeryBigSum\Out\Out0.txt" />
+    <Content Include="Challenges\BiggerIsGreater\In\In0.txt" />
+    <Content Include="Challenges\BiggerIsGreater\Out\Out0.txt" />
+    <Content Include="Challenges\BonAppetit\In\In0.txt" />
+    <Content Include="Challenges\BonAppetit\In\In6.txt" />
+    <Content Include="Challenges\BonAppetit\Out\Out0.txt" />
+    <Content Include="Challenges\BonAppetit\Out\Out6.txt" />
     <Content Include="Challenges\Challenges.xml" />
     <Content Include="Challenges\CircularArrayRotation\In\In15.txt" />
     <Content Include="Challenges\CircularArrayRotation\In\In5.txt" />
@@ -191,6 +201,10 @@
     <Content Include="Challenges\DivisibleSumPairs\Out\Out12.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
+    <Content Include="Challenges\JumpingOnTheClouds\In\In0.txt" />
+    <Content Include="Challenges\JumpingOnTheClouds\In\In1.txt" />
+    <Content Include="Challenges\JumpingOnTheClouds\Out\Out0.txt" />
+    <Content Include="Challenges\JumpingOnTheClouds\Out\Out1.txt" />
     <Content Include="Challenges\Kangaroo\In\In0.txt" />
     <Content Include="Challenges\Kangaroo\In\In1.txt" />
     <Content Include="Challenges\Kangaroo\In\In10.txt" />
@@ -239,6 +253,10 @@
     <Content Include="Challenges\SockMerchant\Out\Out0.txt" />
     <Content Include="Challenges\Staircase\In\In1.txt" />
     <Content Include="Challenges\Staircase\Out\Out1.txt" />
+    <Content Include="Challenges\StrangeAdvertising\In\In0.txt" />
+    <Content Include="Challenges\StrangeAdvertising\In\In1.txt" />
+    <Content Include="Challenges\StrangeAdvertising\Out\Out0.txt" />
+    <Content Include="Challenges\StrangeAdvertising\Out\Out1.txt" />
     <Content Include="Challenges\TimeConversion\In\In0.txt" />
     <Content Include="Challenges\TimeConversion\Out\Out0.txt" />
     <Content Include="Challenges\TwoTwo\In\In0.txt" />
