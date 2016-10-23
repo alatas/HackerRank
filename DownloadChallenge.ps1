@@ -45,6 +45,11 @@ Write-Progress -Activity "Downloading $name" -Status "Adding to defs" -PercentCo
 [xml] $doc = Get-Content("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
 If ($doc.SelectSingleNode("//challenge[@Id=$Id]") -eq $null){
 $child = $doc.CreateElement("challenge")
+
+$att0=$doc.CreateAttribute("Score")
+$att0.Value=$score
+$child.Attributes.Append($att0)
+
 $att1=$doc.CreateAttribute("Id")
 $att1.Value=$Id
 $child.Attributes.Append($att1)

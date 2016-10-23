@@ -1,34 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <challenges>
-  <challenge Id="MorganAndAString" Name="Morgan and a String" Link="https://www.hackerrank.com/challenges/morgan-and-a-string" />
-  <challenge Id="TwoTwo" Name="Two Two" Link="https://www.hackerrank.com/challenges/two-two" />
-  <challenge Id="SherlockAndValidString" Name="Sherlock and Valid String" Link="http://www.hackerrank.com/challenges/sherlock-and-valid-string" />
-  <challenge Id="DetectHtmlLinks" Name="Detect HTML links" Link="https://www.hackerrank.com/challenges/detect-html-links" />
-  <challenge Id="FindAWord" Name="Find a Word" Link="https://www.hackerrank.com/challenges/find-a-word" />
-  <challenge Id="DetectTheEmailAddresses" Name="Detect the Email Addresses" Link="https://www.hackerrank.com/challenges/detect-the-email-addresses" />
-  <challenge Id="DetectTheDomainName" Name="Detect the Domain Name" Link="https://www.hackerrank.com/challenges/detect-the-domain-name" />
-  <challenge Id="IdeIdentifyingComments" Name="Building a Smart IDE: Identifying comments" Link="https://www.hackerrank.com/challenges/ide-identifying-comments" />
-  <challenge Id="DetectingValidLatitudeAndLongitude" Name="Detecting Valid Latitude and Longitude Pairs" Link="https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude" />
-  <challenge Id="ProgrammingLanguageDetection" Name="Building a Smart IDE: Programming Language Detection" Link="https://www.hackerrank.com/challenges/programming-language-detection" />
-  <challenge Id="AshtonAndString" Name="Ashton and String" Link="https://www.hackerrank.com/challenges/ashton-and-string" />
-  <challenge Id="SimpleArraySum" Name="Simple Array Sum" Link="https://www.hackerrank.com/challenges/simple-array-sum" />
-  <challenge Id="CompareTheTriplets" Name="Compare the Triplets" Link="https://www.hackerrank.com/challenges/compare-the-triplets" />
-  <challenge Id="AVeryBigSum" Name="A Very Big Sum" Link="https://www.hackerrank.com/challenges/a-very-big-sum" />
-  <challenge Id="DiagonalDifference" Name="Diagonal Difference" Link="https://www.hackerrank.com/challenges/diagonal-difference" />
-  <challenge Id="PlusMinus" Name="Plus Minus" Link="https://www.hackerrank.com/challenges/plus-minus" />
-  <challenge Id="Staircase" Name="Staircase" Link="https://www.hackerrank.com/challenges/staircase" />
-  <challenge Id="TimeConversion" Name="Time Conversion" Link="https://www.hackerrank.com/challenges/time-conversion" />
-  <challenge Id="MaximumPerimeterTriangle" Name="Maximum Perimeter Triangle" Link="https://www.hackerrank.com/challenges/maximum-perimeter-triangle" />
-  <challenge Id="CircularArrayRotation" Name="Circular Array Rotation" Link="https://www.hackerrank.com/challenges/circular-array-rotation" />
-  <challenge Id="Kangaroo" Name="Kangaroo" Link="https://www.hackerrank.com/challenges/kangaroo" />
-  <challenge Id="DivisibleSumPairs" Name="Divisible Sum Pairs" Link="https://www.hackerrank.com/challenges/divisible-sum-pairs" />
-  <challenge Id="AngryProfessor" Name="Angry Professor" Link="https://www.hackerrank.com/challenges/angry-professor" />
-  <challenge Id="CutTheSticks" Name="Cut the sticks" Link="https://www.hackerrank.com/challenges/cut-the-sticks" />
-  <challenge Id="SockMerchant" Name="Sock Merchant" Link="https://www.hackerrank.com/challenges/sock-merchant" />
-  <challenge Id="NonDivisibleSubset" Name="Non-Divisible Subset" Link="https://www.hackerrank.com/challenges/non-divisible-subset" />
-  <challenge Id="RepeatedString" Name="Repeated String" Link="https://www.hackerrank.com/challenges/repeated-string" />
-  <challenge Id="StrangeAdvertising" Name="Viral Advertising" Link="https://www.hackerrank.com/challenges/strange-advertising" />
-  <challenge Id="JumpingOnTheClouds" Name="Jumping on the Clouds" Link="https://www.hackerrank.com/challenges/jumping-on-the-clouds" />
-  <challenge Id="BiggerIsGreater" Name="Bigger is Greater" Link="https://www.hackerrank.com/challenges/bigger-is-greater" />
-  <challenge Id="BonAppetit" Name="Bon Appétit" Link="https://www.hackerrank.com/challenges/bon-appetit" />
+  <challenge Score="150" Id="TwoTwo" Name="Two Two" Link="https://www.hackerrank.com/challenges/two-two" />
+  <challenge Score="100" Id="SherlockAndValidString" Name="Sherlock and Valid String" Link="http://www.hackerrank.com/challenges/sherlock-and-valid-string" />
+  <challenge Score="100" Id="MorganAndAString" Name="Morgan and a String" Link="https://www.hackerrank.com/challenges/morgan-and-a-string" />
+  <challenge Score="10" Id="DetectHtmlLinks" Name="Detect HTML links" Link="https://www.hackerrank.com/challenges/detect-html-links" />
+  <challenge Score="15" Id="FindAWord" Name="Find a Word" Link="https://www.hackerrank.com/challenges/find-a-word" />
+  <challenge Score="15" Id="DetectTheEmailAddresses" Name="Detect the Email Addresses" Link="https://www.hackerrank.com/challenges/detect-the-email-addresses" />
+  <challenge Score="15" Id="DetectTheDomainName" Name="Detect the Domain Name" Link="https://www.hackerrank.com/challenges/detect-the-domain-name" />
+  <challenge Score="20" Id="IdeIdentifyingComments" Name="Building a Smart IDE: Identifying comments" Link="https://www.hackerrank.com/challenges/ide-identifying-comments" />
+  <challenge Score="20" Id="DetectingValidLatitudeAndLongitude" Name="Detecting Valid Latitude and Longitude Pairs" Link="https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude" />
+  <challenge Score="30" Id="ProgrammingLanguageDetection" Name="Building a Smart IDE: Programming Language Detection" Link="https://www.hackerrank.com/challenges/programming-language-detection" />
+  <challenge Score="100" Id="AshtonAndString" Name="Ashton and String" Link="https://www.hackerrank.com/challenges/ashton-and-string" />
+  <challenge Score="10" Id="SimpleArraySum" Name="Simple Array Sum" Link="https://www.hackerrank.com/challenges/simple-array-sum" />
+  <challenge Score="10" Id="CompareTheTriplets" Name="Compare the Triplets" Link="https://www.hackerrank.com/challenges/compare-the-triplets" />
+  <challenge Score="10" Id="AVeryBigSum" Name="A Very Big Sum" Link="https://www.hackerrank.com/challenges/a-very-big-sum" />
+  <challenge Score="10" Id="DiagonalDifference" Name="Diagonal Difference" Link="https://www.hackerrank.com/challenges/diagonal-difference" />
+  <challenge Score="10" Id="PlusMinus" Name="Plus Minus" Link="https://www.hackerrank.com/challenges/plus-minus" />
+  <challenge Score="10" Id="Staircase" Name="Staircase" Link="https://www.hackerrank.com/challenges/staircase" />
+  <challenge Score="15" Id="TimeConversion" Name="Time Conversion" Link="https://www.hackerrank.com/challenges/time-conversion" />
+  <challenge Score="20" Id="MaximumPerimeterTriangle" Name="Maximum Perimeter Triangle" Link="https://www.hackerrank.com/challenges/maximum-perimeter-triangle" />
+  <challenge Score="20" Id="CircularArrayRotation" Name="Circular Array Rotation" Link="https://www.hackerrank.com/challenges/circular-array-rotation" />
+  <challenge Score="10" Id="Kangaroo" Name="Kangaroo" Link="https://www.hackerrank.com/challenges/kangaroo" />
+  <challenge Score="10" Id="DivisibleSumPairs" Name="Divisible Sum Pairs" Link="https://www.hackerrank.com/challenges/divisible-sum-pairs" />
+  <challenge Score="20" Id="AngryProfessor" Name="Angry Professor" Link="https://www.hackerrank.com/challenges/angry-professor" />
+  <challenge Score="25" Id="CutTheSticks" Name="Cut the sticks" Link="https://www.hackerrank.com/challenges/cut-the-sticks" />
+  <challenge Score="10" Id="SockMerchant" Name="Sock Merchant" Link="https://www.hackerrank.com/challenges/sock-merchant" />
+  <challenge Score="20" Id="NonDivisibleSubset" Name="Non-Divisible Subset" Link="https://www.hackerrank.com/challenges/non-divisible-subset" />
+  <challenge Score="20" Id="RepeatedString" Name="Repeated String" Link="https://www.hackerrank.com/challenges/repeated-string" />
+  <challenge Score="15" Id="StrangeAdvertising" Name="Viral Advertising" Link="https://www.hackerrank.com/challenges/strange-advertising" />
+  <challenge Score="20" Id="JumpingOnTheClouds" Name="Jumping on the Clouds" Link="https://www.hackerrank.com/challenges/jumping-on-the-clouds" />
+  <challenge Score="35" Id="BiggerIsGreater" Name="Bigger is Greater" Link="https://www.hackerrank.com/challenges/bigger-is-greater" />
+  <challenge Score="10" Id="BonAppetit" Name="Bon Appétit" Link="https://www.hackerrank.com/challenges/bon-appetit" />
+  <challenge Score="30" Id="StrangeCode" Name="Strange Counter" Link="https://www.hackerrank.com/challenges/strange-code" />
+  <challenge Score="15" Id="SaveThePrisoner" Name="Save the Prisoner!" Link="https://www.hackerrank.com/challenges/save-the-prisoner" />
 </challenges>

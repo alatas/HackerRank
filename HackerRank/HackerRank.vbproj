@@ -111,11 +111,13 @@
     <Compile Include="Challenges\PlusMinus\Code.vb" />
     <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
     <Compile Include="Challenges\RepeatedString\Code.vb" />
+    <Compile Include="Challenges\SaveThePrisoner\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
     <Compile Include="Challenges\SockMerchant\Code.vb" />
     <Compile Include="Challenges\Staircase\Code.vb" />
     <Compile Include="Challenges\StrangeAdvertising\Code.vb" />
+    <Compile Include="Challenges\StrangeCode\Code.vb" />
     <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
@@ -243,6 +245,10 @@
     <Content Include="Challenges\RepeatedString\In\In1.txt" />
     <Content Include="Challenges\RepeatedString\Out\Out0.txt" />
     <Content Include="Challenges\RepeatedString\Out\Out1.txt" />
+    <Content Include="Challenges\SaveThePrisoner\In\In0.txt" />
+    <Content Include="Challenges\SaveThePrisoner\In\In4.txt" />
+    <Content Include="Challenges\SaveThePrisoner\Out\Out0.txt" />
+    <Content Include="Challenges\SaveThePrisoner\Out\Out4.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In2.txt" />
     <Content Include="Challenges\SherlockAndValidString\Out\Out0.txt" />
@@ -257,6 +263,10 @@
     <Content Include="Challenges\StrangeAdvertising\In\In1.txt" />
     <Content Include="Challenges\StrangeAdvertising\Out\Out0.txt" />
     <Content Include="Challenges\StrangeAdvertising\Out\Out1.txt" />
+    <Content Include="Challenges\StrangeCode\In\In0.txt" />
+    <Content Include="Challenges\StrangeCode\In\In4.txt" />
+    <Content Include="Challenges\StrangeCode\Out\Out0.txt" />
+    <Content Include="Challenges\StrangeCode\Out\Out4.txt" />
     <Content Include="Challenges\TimeConversion\In\In0.txt" />
     <Content Include="Challenges\TimeConversion\Out\Out0.txt" />
     <Content Include="Challenges\TwoTwo\In\In0.txt" />
