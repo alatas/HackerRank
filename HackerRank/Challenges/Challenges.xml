@@ -33,4 +33,7 @@
   <challenge Score="10" Id="BonAppetit" Name="Bon Appétit" Link="https://www.hackerrank.com/challenges/bon-appetit" />
   <challenge Score="30" Id="StrangeCode" Name="Strange Counter" Link="https://www.hackerrank.com/challenges/strange-code" />
   <challenge Score="15" Id="SaveThePrisoner" Name="Save the Prisoner!" Link="https://www.hackerrank.com/challenges/save-the-prisoner" />
+  <challenge Score="15" Id="JumpingOnTheCloudsRevisited" Name="Jumping on the Clouds: Revisited" Link="https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited" />
+  <challenge Score="25" Id="LisaWorkbook" Name="Lisa's Workbook" Link="https://www.hackerrank.com/challenges/lisa-workbook" />
+  <challenge Score="25" Id="FlatlandSpaceStations" Name="Flatland Space Stations" Link="https://www.hackerrank.com/challenges/flatland-space-stations" />
 </challenges>

@@ -29,6 +29,9 @@ My solutions to HackerRank challenges
 - [x] Bon Appétit (Score: 10)
 - [x] Strange Counter (Score: 30)
 - [x] Save the Prisoner! (Score: 15)
+- [x] Jumping on the Clouds: Revisited (Score: 15)
+- [x] Lisa's Workbook (Score: 25)
+- [x] Flatland Space Stations (Score: 25)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -61,6 +64,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v12 Added [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited), [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook), [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations)
 - v11 Added [Strange Counter](https://www.hackerrank.com/challenges/strange-code), [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner), changed download script
 - v10 Added [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising), [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds), [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater), [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit)
 - v9 Added [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant), [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset), [Repeated String](https://www.hackerrank.com/challenges/repeated-string)

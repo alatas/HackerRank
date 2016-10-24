@@ -16,8 +16,8 @@ Imports System.Reflection
 
     <TestMethod()> Public Sub TestOneChallengeOneInput()
         '-- CHANGE THIS --
-        Const ChallengeId = "NonDivisibleSubset"
-        Const TestId = "9"
+        Const ChallengeId = "FlatlandSpaceStations"
+        Const TestId = "6"
         '-----------------
 
         Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
@@ -39,11 +39,17 @@ Imports System.Reflection
     End Sub
 
     <TestMethod()> Public Sub TestOneChallengeAllInputs()
-        '-- CHANGE THIS --
-        Const ChallengeId = "SaveThePrisoner"
-        '-----------------
+        '-- CHANGE THIS OR SET EMPTY FOR LATEST CHALLENGE --
+        Const ChallengeId = ""
+        '---------------------------------------------------
 
-        Dim def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
+        Dim def As ChallengeDef
+        If ChallengeId = "" Then
+            def = ChallengeDefs.LastOrDefault
+        Else
+            def = ChallengeDefs.Where(Function(t) t.Id = ChallengeId).FirstOrDefault
+        End If
+
         If def.Name = "" Then Assert.Fail("Challenge definition cannot be found!")
 
         Dim method = def.Type.GetMethod("Main", BindingFlags.Public Or BindingFlags.Static)

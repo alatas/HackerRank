@@ -102,9 +102,12 @@
     <Compile Include="Challenges\DiagonalDifference\Code.vb" />
     <Compile Include="Challenges\DivisibleSumPairs\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
+    <Compile Include="Challenges\FlatlandSpaceStations\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
+    <Compile Include="Challenges\JumpingOnTheCloudsRevisited\Code.vb" />
     <Compile Include="Challenges\JumpingOnTheClouds\Code.vb" />
     <Compile Include="Challenges\Kangaroo\Code.vb" />
+    <Compile Include="Challenges\LisaWorkbook\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
     <Compile Include="Challenges\NonDivisibleSubset\Code.vb" />
@@ -203,6 +206,14 @@
     <Content Include="Challenges\DivisibleSumPairs\Out\Out12.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\In\In0.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\In\In1.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\In\In6.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\Out\Out0.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\Out\Out1.txt" />
+    <Content Include="Challenges\FlatlandSpaceStations\Out\Out6.txt" />
+    <Content Include="Challenges\JumpingOnTheCloudsRevisited\In\In0.txt" />
+    <Content Include="Challenges\JumpingOnTheCloudsRevisited\Out\Out0.txt" />
     <Content Include="Challenges\JumpingOnTheClouds\In\In0.txt" />
     <Content Include="Challenges\JumpingOnTheClouds\In\In1.txt" />
     <Content Include="Challenges\JumpingOnTheClouds\Out\Out0.txt" />
@@ -213,6 +224,8 @@
     <Content Include="Challenges\Kangaroo\Out\Out0.txt" />
     <Content Include="Challenges\Kangaroo\Out\Out1.txt" />
     <Content Include="Challenges\Kangaroo\Out\Out10.txt" />
+    <Content Include="Challenges\LisaWorkbook\In\In0.txt" />
+    <Content Include="Challenges\LisaWorkbook\Out\Out0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In1.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out0.txt" />
