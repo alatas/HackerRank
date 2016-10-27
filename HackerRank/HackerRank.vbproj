@@ -86,10 +86,12 @@
     <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenges\AbsolutePermutation\Code.vb" />
     <Compile Include="Challenges\AngryProfessor\Code.vb" />
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
     <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
+    <Compile Include="Challenges\BomberMan\Code.vb" />
     <Compile Include="Challenges\BonAppetit\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
@@ -161,6 +163,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Challenges\AbsolutePermutation\In\In0.txt" />
+    <Content Include="Challenges\AbsolutePermutation\Out\Out0.txt" />
     <Content Include="Challenges\AngryProfessor\In\In0.txt" />
     <Content Include="Challenges\AngryProfessor\Out\Out0.txt" />
     <Content Include="Challenges\AshtonAndString\In\In0.txt" />
@@ -175,6 +179,10 @@
     <Content Include="Challenges\AVeryBigSum\Out\Out0.txt" />
     <Content Include="Challenges\BiggerIsGreater\In\In0.txt" />
     <Content Include="Challenges\BiggerIsGreater\Out\Out0.txt" />
+    <Content Include="Challenges\BomberMan\In\In0.txt" />
+    <Content Include="Challenges\BomberMan\In\In13.txt" />
+    <Content Include="Challenges\BomberMan\Out\Out0.txt" />
+    <Content Include="Challenges\BomberMan\Out\Out13.txt" />
     <Content Include="Challenges\BonAppetit\In\In0.txt" />
     <Content Include="Challenges\BonAppetit\In\In6.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out0.txt" />

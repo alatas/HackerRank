@@ -32,6 +32,8 @@ My solutions to HackerRank challenges
 - [x] Jumping on the Clouds: Revisited (Score: 15)
 - [x] Lisa's Workbook (Score: 25)
 - [x] Flatland Space Stations (Score: 25)
+- [x] Absolute Permutation (Score: 40)
+- [x] The Bomberman Game (Score: 40)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -64,6 +66,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v13 Added [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation), [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man)
 - v12 Added [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited), [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook), [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations)
 - v11 Added [Strange Counter](https://www.hackerrank.com/challenges/strange-code), [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner), changed download script
 - v10 Added [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising), [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds), [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater), [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit)

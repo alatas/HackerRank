@@ -36,4 +36,6 @@
   <challenge Score="15" Id="JumpingOnTheCloudsRevisited" Name="Jumping on the Clouds: Revisited" Link="https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited" />
   <challenge Score="25" Id="LisaWorkbook" Name="Lisa's Workbook" Link="https://www.hackerrank.com/challenges/lisa-workbook" />
   <challenge Score="25" Id="FlatlandSpaceStations" Name="Flatland Space Stations" Link="https://www.hackerrank.com/challenges/flatland-space-stations" />
+  <challenge Score="40" Id="AbsolutePermutation" Name="Absolute Permutation" Link="https://www.hackerrank.com/challenges/absolute-permutation" />
+  <challenge Score="40" Id="BomberMan" Name="The Bomberman Game" Link="https://www.hackerrank.com/challenges/bomber-man" />
 </challenges>
