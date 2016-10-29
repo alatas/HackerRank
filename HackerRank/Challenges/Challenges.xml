@@ -38,4 +38,5 @@
   <challenge Score="25" Id="FlatlandSpaceStations" Name="Flatland Space Stations" Link="https://www.hackerrank.com/challenges/flatland-space-stations" />
   <challenge Score="40" Id="AbsolutePermutation" Name="Absolute Permutation" Link="https://www.hackerrank.com/challenges/absolute-permutation" />
   <challenge Score="40" Id="BomberMan" Name="The Bomberman Game" Link="https://www.hackerrank.com/challenges/bomber-man" />
+  <challenge Score="40" Id="TwoPluses" Name="Ema's Supercomputer" Link="https://www.hackerrank.com/challenges/two-pluses" />
 </challenges>

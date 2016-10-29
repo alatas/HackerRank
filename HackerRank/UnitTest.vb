@@ -19,7 +19,7 @@ Imports System.Reflection
         Const ChallengeId = ""
         '---------------------------------------------------
 
-        Const TestId = "13"
+        Const TestId = "6"
 
         Dim def As ChallengeDef
         If ChallengeId = "" Then

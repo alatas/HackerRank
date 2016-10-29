@@ -124,6 +124,7 @@
     <Compile Include="Challenges\StrangeAdvertising\Code.vb" />
     <Compile Include="Challenges\StrangeCode\Code.vb" />
     <Compile Include="Challenges\TimeConversion\Code.vb" />
+    <Compile Include="Challenges\TwoPluses\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
     <Compile Include="UnitTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -290,6 +291,16 @@
     <Content Include="Challenges\StrangeCode\Out\Out4.txt" />
     <Content Include="Challenges\TimeConversion\In\In0.txt" />
     <Content Include="Challenges\TimeConversion\Out\Out0.txt" />
+    <Content Include="Challenges\TwoPluses\In\In0.txt" />
+    <Content Include="Challenges\TwoPluses\In\In1.txt" />
+    <Content Include="Challenges\TwoPluses\In\In2.txt" />
+    <Content Include="Challenges\TwoPluses\In\In5.txt" />
+    <Content Include="Challenges\TwoPluses\In\In6.txt" />
+    <Content Include="Challenges\TwoPluses\Out\Out0.txt" />
+    <Content Include="Challenges\TwoPluses\Out\Out1.txt" />
+    <Content Include="Challenges\TwoPluses\Out\Out2.txt" />
+    <Content Include="Challenges\TwoPluses\Out\Out5.txt" />
+    <Content Include="Challenges\TwoPluses\Out\Out6.txt" />
     <Content Include="Challenges\TwoTwo\In\In0.txt" />
     <Content Include="Challenges\TwoTwo\In\In1.txt" />
     <Content Include="Challenges\TwoTwo\In\In8.txt" />
