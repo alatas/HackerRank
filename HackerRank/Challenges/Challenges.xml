@@ -39,4 +39,6 @@
   <challenge Score="40" Id="AbsolutePermutation" Name="Absolute Permutation" Link="https://www.hackerrank.com/challenges/absolute-permutation" />
   <challenge Score="40" Id="BomberMan" Name="The Bomberman Game" Link="https://www.hackerrank.com/challenges/bomber-man" />
   <challenge Score="40" Id="TwoPluses" Name="Ema's Supercomputer" Link="https://www.hackerrank.com/challenges/two-pluses" />
+  <challenge Score="20" Id="MinimumDistances" Name="Minimum Distances" Link="https://www.hackerrank.com/challenges/minimum-distances" />
+  <challenge Score="25" Id="FindDigits" Name="Find Digits" Link="https://www.hackerrank.com/challenges/find-digits" />
 </challenges>

@@ -104,6 +104,7 @@
     <Compile Include="Challenges\DiagonalDifference\Code.vb" />
     <Compile Include="Challenges\DivisibleSumPairs\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
+    <Compile Include="Challenges\FindDigits\Code.vb" />
     <Compile Include="Challenges\FlatlandSpaceStations\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
     <Compile Include="Challenges\JumpingOnTheCloudsRevisited\Code.vb" />
@@ -111,6 +112,7 @@
     <Compile Include="Challenges\Kangaroo\Code.vb" />
     <Compile Include="Challenges\LisaWorkbook\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
+    <Compile Include="Challenges\MinimumDistances\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
     <Compile Include="Challenges\NonDivisibleSubset\Code.vb" />
     <Compile Include="Challenges\PlusMinus\Code.vb" />
@@ -215,6 +217,8 @@
     <Content Include="Challenges\DivisibleSumPairs\Out\Out12.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
+    <Content Include="Challenges\FindDigits\In\In0.txt" />
+    <Content Include="Challenges\FindDigits\Out\Out0.txt" />
     <Content Include="Challenges\FlatlandSpaceStations\In\In0.txt" />
     <Content Include="Challenges\FlatlandSpaceStations\In\In1.txt" />
     <Content Include="Challenges\FlatlandSpaceStations\In\In6.txt" />
@@ -239,6 +243,10 @@
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In1.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out1.txt" />
+    <Content Include="Challenges\MinimumDistances\In\In0.txt" />
+    <Content Include="Challenges\MinimumDistances\In\In1.txt" />
+    <Content Include="Challenges\MinimumDistances\Out\Out0.txt" />
+    <Content Include="Challenges\MinimumDistances\Out\Out1.txt" />
     <Content Include="Challenges\MorganAndAString\In\In10.txt" />
     <Content Include="Challenges\MorganAndAString\In\In2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

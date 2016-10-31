@@ -35,6 +35,8 @@ My solutions to HackerRank challenges
 - [x] Absolute Permutation (Score: 40)
 - [x] The Bomberman Game (Score: 40)
 - [x] Ema's Supercomputer (Score: 40)
+- [x] Minimum Distances (Score: 20)
+- [x] Find Digits (Score: 25)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -67,6 +69,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v15 Added [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances), [Find Digits](https://www.hackerrank.com/challenges/find-digits)
 - v14 Added [Ema's Supercomputer](https://www.hackerrank.com/challenges/two-pluses)
 - v13 Added [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation), [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man)
 - v12 Added [Jumping on the Clouds: Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited), [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook), [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations)
