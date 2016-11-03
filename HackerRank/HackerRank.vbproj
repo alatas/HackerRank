@@ -103,6 +103,7 @@
     <Compile Include="Challenges\DetectTheEmailAddresses\Code.vb" />
     <Compile Include="Challenges\DiagonalDifference\Code.vb" />
     <Compile Include="Challenges\DivisibleSumPairs\Code.vb" />
+    <Compile Include="Challenges\FairRations\Code.vb" />
     <Compile Include="Challenges\FindAWord\Code.vb" />
     <Compile Include="Challenges\FindDigits\Code.vb" />
     <Compile Include="Challenges\FlatlandSpaceStations\Code.vb" />
@@ -119,6 +120,7 @@
     <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
     <Compile Include="Challenges\RepeatedString\Code.vb" />
     <Compile Include="Challenges\SaveThePrisoner\Code.vb" />
+    <Compile Include="Challenges\SherlockAndSquares\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
     <Compile Include="Challenges\SockMerchant\Code.vb" />
@@ -128,6 +130,7 @@
     <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoPluses\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
+    <Compile Include="Challenges\UtopianTree\Code.vb" />
     <Compile Include="UnitTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -215,6 +218,10 @@
     <Content Include="Challenges\DivisibleSumPairs\In\In12.txt" />
     <Content Include="Challenges\DivisibleSumPairs\Out\Out0.txt" />
     <Content Include="Challenges\DivisibleSumPairs\Out\Out12.txt" />
+    <Content Include="Challenges\FairRations\In\In0.txt" />
+    <Content Include="Challenges\FairRations\In\In1.txt" />
+    <Content Include="Challenges\FairRations\Out\Out0.txt" />
+    <Content Include="Challenges\FairRations\Out\Out1.txt" />
     <Content Include="Challenges\FindAWord\In\In0.txt" />
     <Content Include="Challenges\FindAWord\Out\Out0.txt" />
     <Content Include="Challenges\FindDigits\In\In0.txt" />
@@ -279,6 +286,12 @@
     <Content Include="Challenges\SaveThePrisoner\In\In4.txt" />
     <Content Include="Challenges\SaveThePrisoner\Out\Out0.txt" />
     <Content Include="Challenges\SaveThePrisoner\Out\Out4.txt" />
+    <Content Include="Challenges\SherlockAndSquares\In\In6.txt" />
+    <Content Include="Challenges\SherlockAndSquares\In\In7.txt" />
+    <Content Include="Challenges\SherlockAndSquares\In\In8.txt" />
+    <Content Include="Challenges\SherlockAndSquares\Out\Out6.txt" />
+    <Content Include="Challenges\SherlockAndSquares\Out\Out7.txt" />
+    <Content Include="Challenges\SherlockAndSquares\Out\Out8.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In0.txt" />
     <Content Include="Challenges\SherlockAndValidString\In\In2.txt" />
     <Content Include="Challenges\SherlockAndValidString\Out\Out0.txt" />
@@ -315,6 +328,10 @@
     <Content Include="Challenges\TwoTwo\Out\Out0.txt" />
     <Content Include="Challenges\TwoTwo\Out\Out1.txt" />
     <Content Include="Challenges\TwoTwo\Out\Out8.txt" />
+    <Content Include="Challenges\UtopianTree\In\In0.txt" />
+    <Content Include="Challenges\UtopianTree\In\In1.txt" />
+    <Content Include="Challenges\UtopianTree\Out\Out0.txt" />
+    <Content Include="Challenges\UtopianTree\Out\Out1.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Challenges\IdeIdentifyingComments\In\" />

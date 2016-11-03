@@ -41,4 +41,7 @@
   <challenge Score="40" Id="TwoPluses" Name="Ema's Supercomputer" Link="https://www.hackerrank.com/challenges/two-pluses" />
   <challenge Score="20" Id="MinimumDistances" Name="Minimum Distances" Link="https://www.hackerrank.com/challenges/minimum-distances" />
   <challenge Score="25" Id="FindDigits" Name="Find Digits" Link="https://www.hackerrank.com/challenges/find-digits" />
+  <challenge Score="25" Id="FairRations" Name="Fair Rations" Link="https://www.hackerrank.com/challenges/fair-rations" />
+  <challenge Score="20" Id="UtopianTree" Name="Utopian Tree" Link="https://www.hackerrank.com/challenges/utopian-tree" />
+  <challenge Score="20" Id="SherlockAndSquares" Name="Sherlock and Squares" Link="https://www.hackerrank.com/challenges/sherlock-and-squares" />
 </challenges>
