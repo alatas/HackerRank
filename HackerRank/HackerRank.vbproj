@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Challenges\AbsolutePermutation\Code.vb" />
+    <Compile Include="Challenges\AlmostSorted\Code.vb" />
     <Compile Include="Challenges\AngryProfessor\Code.vb" />
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
@@ -120,6 +121,7 @@
     <Compile Include="Challenges\ProgrammingLanguageDetection\Code.vb" />
     <Compile Include="Challenges\RepeatedString\Code.vb" />
     <Compile Include="Challenges\SaveThePrisoner\Code.vb" />
+    <Compile Include="Challenges\ServiceLane\Code.vb" />
     <Compile Include="Challenges\SherlockAndSquares\Code.vb" />
     <Compile Include="Challenges\SherlockAndValidString\Code.vb" />
     <Compile Include="Challenges\SimpleArraySum\Code.vb" />
@@ -171,6 +173,12 @@
   <ItemGroup>
     <Content Include="Challenges\AbsolutePermutation\In\In0.txt" />
     <Content Include="Challenges\AbsolutePermutation\Out\Out0.txt" />
+    <Content Include="Challenges\AlmostSorted\In\In0.txt" />
+    <Content Include="Challenges\AlmostSorted\In\In20.txt" />
+    <Content Include="Challenges\AlmostSorted\In\In21.txt" />
+    <Content Include="Challenges\AlmostSorted\Out\Out0.txt" />
+    <Content Include="Challenges\AlmostSorted\Out\Out20.txt" />
+    <Content Include="Challenges\AlmostSorted\Out\Out21.txt" />
     <Content Include="Challenges\AngryProfessor\In\In0.txt" />
     <Content Include="Challenges\AngryProfessor\Out\Out0.txt" />
     <Content Include="Challenges\AshtonAndString\In\In0.txt" />
@@ -286,6 +294,10 @@
     <Content Include="Challenges\SaveThePrisoner\In\In4.txt" />
     <Content Include="Challenges\SaveThePrisoner\Out\Out0.txt" />
     <Content Include="Challenges\SaveThePrisoner\Out\Out4.txt" />
+    <Content Include="Challenges\ServiceLane\In\In0.txt" />
+    <Content Include="Challenges\ServiceLane\In\In1.txt" />
+    <Content Include="Challenges\ServiceLane\Out\Out0.txt" />
+    <Content Include="Challenges\ServiceLane\Out\Out1.txt" />
     <Content Include="Challenges\SherlockAndSquares\In\In6.txt" />
     <Content Include="Challenges\SherlockAndSquares\In\In7.txt" />
     <Content Include="Challenges\SherlockAndSquares\In\In8.txt" />

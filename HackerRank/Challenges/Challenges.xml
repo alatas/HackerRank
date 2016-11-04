@@ -44,4 +44,6 @@
   <challenge Score="25" Id="FairRations" Name="Fair Rations" Link="https://www.hackerrank.com/challenges/fair-rations" />
   <challenge Score="20" Id="UtopianTree" Name="Utopian Tree" Link="https://www.hackerrank.com/challenges/utopian-tree" />
   <challenge Score="20" Id="SherlockAndSquares" Name="Sherlock and Squares" Link="https://www.hackerrank.com/challenges/sherlock-and-squares" />
+  <challenge Score="50" Id="AlmostSorted" Name="Almost Sorted" Link="https://www.hackerrank.com/challenges/almost-sorted" />
+  <challenge Score="20" Id="ServiceLane" Name="Service Lane" Link="https://www.hackerrank.com/challenges/service-lane" />
 </challenges>
