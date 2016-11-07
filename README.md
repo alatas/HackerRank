@@ -42,6 +42,9 @@ My solutions to HackerRank challenges
 - [x] Sherlock and Squares (Score: 20)
 - [x] Almost Sorted (Score: 50)
 - [x] Service Lane (Score: 20)
+- [x] Beautiful Triplets (Score: 20)
+- [x] Chocolate Feast  (Score: 25)
+- [x] Larry's Array (Score: 40)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -74,6 +77,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v18 Added [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets), [Chocolate Feast ](https://www.hackerrank.com/challenges/chocolate-feast), [Larry's Array](https://www.hackerrank.com/challenges/larrys-array)
 - v17 Added [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted), [Service Lane](https://www.hackerrank.com/challenges/service-lane)
 - v16 Added [Fair Rations](https://www.hackerrank.com/challenges/fair-rations), [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree), [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares)
 - v15 Added [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances), [Find Digits](https://www.hackerrank.com/challenges/find-digits)

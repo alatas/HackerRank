@@ -1,74 +1,78 @@
-param(
-    [Parameter(Mandatory=$true)][string]$Uri=""
+﻿param(
+  [Parameter(Mandatory = $true)] [string]$Uri = ""
 )
 
 function Get-CaseDest {
-param(
-    [string] $name,
-    [string] $dest
-    )
-    $name=$name -replace "(output|input)(\d\d).txt",'$2' 
-    [int]$part=$name
-    return "$PSScriptRoot\HackerRank\Challenges\$Id\$dest\$dest$part.txt"
+  param(
+    [string]$name,
+    [string]$dest
+  )
+  $name = $name -replace "(output|input)(\d\d).txt",'$2'
+  [int]$part = $name
+  return "$PSScriptRoot\HackerRank\Challenges\$Id\$dest\$dest$part.txt"
 }
 
-Write-Progress -Activity "Challenge download starting" -Status "Downloading info" -PercentComplete 0
+Try
+{
+  Write-Progress -Activity "Challenge download starting" -Status "Downloading info" -PercentComplete 0
 
-$WebId=$Uri -replace "https?\:\/\/.*?hackerrank.com\/challenges\/([0-9A-Za-z\-]*?)","$1"
-if ($WebId -eq $Uri) {Throw "Uri is not valid: $($Uri)"}
+  $WebId = $Uri -replace "https?\:\/\/(?:www\.)?hackerrank\.com\/challenges\/([0-9A-Za-z\-]*)(?:\?.*)?",'$1'
+  If ($WebId -eq $Uri) { throw "Uri is not valid: $($Uri)" }
 
-$Id =[Regex]::Replace($WebId, '(^|\-)(.)', { param($m) $m.Value.ToUpperInvariant().Replace('-','') })
+  $Uri="https://www.hackerrank.com/challenges/$WebId"
 
-$model=Invoke-RestMethod -Method Get -Uri https://www.hackerrank.com/rest/contests/master/challenges/$WebId | Select -ExpandProperty model
+  $Id = [regex]::Replace($WebId,'(^|\-)(.)',{ param($m) $m.Value.ToUpperInvariant().Replace('-','') })
 
-$name=$model.name
-$score=$model.max_score
+  $model = Invoke-RestMethod -Method Get -Uri https://www.hackerrank.com/rest/contests/master/challenges/$WebId | Select -ExpandProperty model
 
-
-Write-Progress -Activity "Downloading $name" -Status "Downloading Test Cases" -PercentComplete 15
-New-Item $env:TEMP\$Id -ItemType Directory -Force -ErrorAction SilentlyContinue | Out-Null
-Invoke-WebRequest -Uri https://www.hackerrank.com/rest/contests/master/challenges/$WebId/download_testcases -OutFile $env:TEMP\$Id\testcases.zip
-Expand-Archive -Path $env:TEMP\$Id\testcases.zip -DestinationPath $env:TEMP\$Id\ -Force
+  $name = $model.name
+  $score = $model.max_score
 
 
-Write-Progress -Activity "Downloading $name" -Status "Creating Folders" -PercentComplete 30
-New-Item $PSScriptRoot\HackerRank\Challenges\$Id -ItemType Directory -Force | Out-Null
-New-Item $PSScriptRoot\HackerRank\Challenges\$Id\In -ItemType Directory -Force | Out-Null
-New-Item $PSScriptRoot\HackerRank\Challenges\$Id\Out -ItemType Directory -Force | Out-Null
+  Write-Progress -Activity "Downloading $name" -Status "Downloading Test Cases" -PercentComplete 15
+  New-Item $env:TEMP\$Id -ItemType Directory -Force -ErrorAction SilentlyContinue | Out-Null
+  Invoke-WebRequest -Uri https://www.hackerrank.com/rest/contests/master/challenges/$WebId/download_testcases -OutFile $env:TEMP\$Id\testcases.zip
+  Expand-Archive -Path $env:TEMP\$Id\testcases.zip -DestinationPath $env:TEMP\$Id\ -Force
 
 
-Write-Progress -Activity "Downloading $name" -Status "Moving Test Cases" -PercentComplete 40
-Get-ChildItem -Path $env:TEMP\$Id\input\ -Filter *.txt | %{$out=Get-CaseDest -name $_.Name -dest In ; Copy-Item $_.FullName -Destination $out}
-Get-ChildItem -Path $env:TEMP\$Id\output\ -Filter *.txt | %{$out=Get-CaseDest -name $_.Name -dest Out ; Copy-Item $_.FullName -Destination $out}
+  Write-Progress -Activity "Downloading $name" -Status "Creating Folders" -PercentComplete 30
+  New-Item $PSScriptRoot\HackerRank\Challenges\$Id -ItemType Directory -Force | Out-Null
+  New-Item $PSScriptRoot\HackerRank\Challenges\$Id\In -ItemType Directory -Force | Out-Null
+  New-Item $PSScriptRoot\HackerRank\Challenges\$Id\Out -ItemType Directory -Force | Out-Null
 
-Write-Progress -Activity "Downloading $name" -Status "Adding to defs" -PercentComplete 70
-[xml] $doc = Get-Content("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
-If ($doc.SelectSingleNode("//challenge[@Id=$Id]") -eq $null){
-$child = $doc.CreateElement("challenge")
 
-$att0=$doc.CreateAttribute("Score")
-$att0.Value=$score
-$child.Attributes.Append($att0)
+  Write-Progress -Activity "Downloading $name" -Status "Moving Test Cases" -PercentComplete 40
+  Get-ChildItem -Path $env:TEMP\$Id\input\ -Filter *.txt | % { $out = Get-CaseDest -Name $_.name -dest In; Copy-Item $_.FullName -Destination $out }
+  Get-ChildItem -Path $env:TEMP\$Id\output\ -Filter *.txt | % { $out = Get-CaseDest -Name $_.name -dest Out; Copy-Item $_.FullName -Destination $out }
 
-$att1=$doc.CreateAttribute("Id")
-$att1.Value=$Id
-$child.Attributes.Append($att1)
+  Write-Progress -Activity "Downloading $name" -Status "Adding to defs" -PercentComplete 70
+  [xml]$doc = Get-Content ("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
+  If ($doc.SelectSingleNode("//challenge[@Id=$Id]") -eq $null) {
+    $child = $doc.CreateElement("challenge")
 
-$att2=$doc.CreateAttribute("Name")
-$att2.Value=$name
-$child.Attributes.Append($att2)
+    $att0 = $doc.CreateAttribute("Score")
+    $att0.Value = $score
+    $child.Attributes.Append($att0)
 
-$att3=$doc.CreateAttribute("Link")
-$att3.Value=$Uri
-$child.Attributes.Append($att3)
+    $att1 = $doc.CreateAttribute("Id")
+    $att1.Value = $Id
+    $child.Attributes.Append($att1)
 
-$doc.DocumentElement.AppendChild($child)
-$doc.Save("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
-}
+    $att2 = $doc.CreateAttribute("Name")
+    $att2.Value = $name
+    $child.Attributes.Append($att2)
 
-Write-Progress -Activity "Downloading $name" -Status "Adding code.vb" -PercentComplete 90
+    $att3 = $doc.CreateAttribute("Link")
+    $att3.Value = $Uri
+    $child.Attributes.Append($att3)
 
-$code=@"
+    $doc.DocumentElement.AppendChild($child)
+    $doc.Save("$PSScriptRoot\HackerRank\Challenges\Challenges.xml")
+  }
+
+  Write-Progress -Activity "Downloading $name" -Status "Adding code.vb" -PercentComplete 90
+
+  $code = @"
 '$name
 '$Uri
 'Score $score
@@ -84,7 +88,15 @@ Module $Id
     End Sub
 End Module
 "@
-Set-Content -Path $PSScriptRoot\HackerRank\Challenges\$Id\Code.vb -Value $code
+  Set-Content -Path $PSScriptRoot\HackerRank\Challenges\$Id\Code.vb -Value $code
 
-Write-Progress -Activity "Downloading $name" -PercentComplete 100 -Status "Completed" 
-Write-Progress -Activity "Downloading $name" -Completed
+  Write-Progress -Activity "Downloading $name" -PercentComplete 100 -Status "Completed"
+}
+Catch
+{
+  Write-Error $Error[0]
+}
+Finally {
+  Write-Progress -Activity "Downloading $name" -Completed
+  Start-Sleep 1
+}

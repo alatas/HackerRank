@@ -91,10 +91,12 @@
     <Compile Include="Challenges\AngryProfessor\Code.vb" />
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
+    <Compile Include="Challenges\BeautifulTriplets\Code.vb" />
     <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
     <Compile Include="Challenges\BomberMan\Code.vb" />
     <Compile Include="Challenges\BonAppetit\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
+    <Compile Include="Challenges\ChocolateFeast\Code.vb" />
     <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
     <Compile Include="Challenges\CompareTheTriplets\Code.vb" />
     <Compile Include="Challenges\CutTheSticks\Code.vb" />
@@ -112,6 +114,7 @@
     <Compile Include="Challenges\JumpingOnTheCloudsRevisited\Code.vb" />
     <Compile Include="Challenges\JumpingOnTheClouds\Code.vb" />
     <Compile Include="Challenges\Kangaroo\Code.vb" />
+    <Compile Include="Challenges\LarrysArray\Code.vb" />
     <Compile Include="Challenges\LisaWorkbook\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
     <Compile Include="Challenges\MinimumDistances\Code.vb" />
@@ -191,6 +194,8 @@
     <Content Include="Challenges\AshtonAndString\Out\Out8.txt" />
     <Content Include="Challenges\AVeryBigSum\In\In0.txt" />
     <Content Include="Challenges\AVeryBigSum\Out\Out0.txt" />
+    <Content Include="Challenges\BeautifulTriplets\In\In0.txt" />
+    <Content Include="Challenges\BeautifulTriplets\Out\Out0.txt" />
     <Content Include="Challenges\BiggerIsGreater\In\In0.txt" />
     <Content Include="Challenges\BiggerIsGreater\Out\Out0.txt" />
     <Content Include="Challenges\BomberMan\In\In0.txt" />
@@ -202,6 +207,8 @@
     <Content Include="Challenges\BonAppetit\Out\Out0.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out6.txt" />
     <Content Include="Challenges\Challenges.xml" />
+    <Content Include="Challenges\ChocolateFeast\In\In0.txt" />
+    <Content Include="Challenges\ChocolateFeast\Out\Out0.txt" />
     <Content Include="Challenges\CircularArrayRotation\In\In15.txt" />
     <Content Include="Challenges\CircularArrayRotation\In\In5.txt" />
     <Content Include="Challenges\CircularArrayRotation\Out\Out15.txt" />
@@ -252,6 +259,10 @@
     <Content Include="Challenges\Kangaroo\Out\Out0.txt" />
     <Content Include="Challenges\Kangaroo\Out\Out1.txt" />
     <Content Include="Challenges\Kangaroo\Out\Out10.txt" />
+    <Content Include="Challenges\LarrysArray\In\In0.txt" />
+    <Content Include="Challenges\LarrysArray\In\In2.txt" />
+    <Content Include="Challenges\LarrysArray\Out\Out0.txt" />
+    <Content Include="Challenges\LarrysArray\Out\Out2.txt" />
     <Content Include="Challenges\LisaWorkbook\In\In0.txt" />
     <Content Include="Challenges\LisaWorkbook\Out\Out0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In0.txt" />

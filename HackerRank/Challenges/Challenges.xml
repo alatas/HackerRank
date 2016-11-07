@@ -46,4 +46,7 @@
   <challenge Score="20" Id="SherlockAndSquares" Name="Sherlock and Squares" Link="https://www.hackerrank.com/challenges/sherlock-and-squares" />
   <challenge Score="50" Id="AlmostSorted" Name="Almost Sorted" Link="https://www.hackerrank.com/challenges/almost-sorted" />
   <challenge Score="20" Id="ServiceLane" Name="Service Lane" Link="https://www.hackerrank.com/challenges/service-lane" />
+  <challenge Score="20" Id="BeautifulTriplets" Name="Beautiful Triplets" Link="https://www.hackerrank.com/challenges/beautiful-triplets" />
+  <challenge Score="25" Id="ChocolateFeast" Name="Chocolate Feast " Link="https://www.hackerrank.com/challenges/chocolate-feast" />
+  <challenge Score="40" Id="LarrysArray" Name="Larry's Array" Link="https://www.hackerrank.com/challenges/larrys-array" />
 </challenges>
