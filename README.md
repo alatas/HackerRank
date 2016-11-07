@@ -45,6 +45,8 @@ My solutions to HackerRank challenges
 - [x] Beautiful Triplets (Score: 20)
 - [x] Chocolate Feast  (Score: 25)
 - [x] Larry's Array (Score: 40)
+- [x] The Grid Search (Score: 30)
+- [x] Cavity Map (Score: 30)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -77,6 +79,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v19 Added [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search), [Cavity Map](https://www.hackerrank.com/challenges/cavity-map)
 - v18 Added [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets), [Chocolate Feast ](https://www.hackerrank.com/challenges/chocolate-feast), [Larry's Array](https://www.hackerrank.com/challenges/larrys-array)
 - v17 Added [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted), [Service Lane](https://www.hackerrank.com/challenges/service-lane)
 - v16 Added [Fair Rations](https://www.hackerrank.com/challenges/fair-rations), [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree), [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares)

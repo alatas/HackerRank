@@ -95,6 +95,7 @@
     <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
     <Compile Include="Challenges\BomberMan\Code.vb" />
     <Compile Include="Challenges\BonAppetit\Code.vb" />
+    <Compile Include="Challenges\CavityMap\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\ChocolateFeast\Code.vb" />
     <Compile Include="Challenges\CircularArrayRotation\Code.vb" />
@@ -132,6 +133,7 @@
     <Compile Include="Challenges\Staircase\Code.vb" />
     <Compile Include="Challenges\StrangeAdvertising\Code.vb" />
     <Compile Include="Challenges\StrangeCode\Code.vb" />
+    <Compile Include="Challenges\TheGridSearch\Code.vb" />
     <Compile Include="Challenges\TimeConversion\Code.vb" />
     <Compile Include="Challenges\TwoPluses\Code.vb" />
     <Compile Include="Challenges\TwoTwo\Code.vb" />
@@ -206,6 +208,8 @@
     <Content Include="Challenges\BonAppetit\In\In6.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out0.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out6.txt" />
+    <Content Include="Challenges\CavityMap\In\In0.txt" />
+    <Content Include="Challenges\CavityMap\Out\Out0.txt" />
     <Content Include="Challenges\Challenges.xml" />
     <Content Include="Challenges\ChocolateFeast\In\In0.txt" />
     <Content Include="Challenges\ChocolateFeast\Out\Out0.txt" />
@@ -333,6 +337,14 @@
     <Content Include="Challenges\StrangeCode\In\In4.txt" />
     <Content Include="Challenges\StrangeCode\Out\Out0.txt" />
     <Content Include="Challenges\StrangeCode\Out\Out4.txt" />
+    <Content Include="Challenges\TheGridSearch\In\In0.txt" />
+    <Content Include="Challenges\TheGridSearch\In\In1.txt" />
+    <Content Include="Challenges\TheGridSearch\In\In8.txt" />
+    <Content Include="Challenges\TheGridSearch\In\In9.txt" />
+    <Content Include="Challenges\TheGridSearch\Out\Out0.txt" />
+    <Content Include="Challenges\TheGridSearch\Out\Out1.txt" />
+    <Content Include="Challenges\TheGridSearch\Out\Out8.txt" />
+    <Content Include="Challenges\TheGridSearch\Out\Out9.txt" />
     <Content Include="Challenges\TimeConversion\In\In0.txt" />
     <Content Include="Challenges\TimeConversion\Out\Out0.txt" />
     <Content Include="Challenges\TwoPluses\In\In0.txt" />

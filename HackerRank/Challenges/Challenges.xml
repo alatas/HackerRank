@@ -49,4 +49,6 @@
   <challenge Score="20" Id="BeautifulTriplets" Name="Beautiful Triplets" Link="https://www.hackerrank.com/challenges/beautiful-triplets" />
   <challenge Score="25" Id="ChocolateFeast" Name="Chocolate Feast " Link="https://www.hackerrank.com/challenges/chocolate-feast" />
   <challenge Score="40" Id="LarrysArray" Name="Larry's Array" Link="https://www.hackerrank.com/challenges/larrys-array" />
+  <challenge Score="30" Id="TheGridSearch" Name="The Grid Search" Link="https://www.hackerrank.com/challenges/the-grid-search" />
+  <challenge Score="30" Id="CavityMap" Name="Cavity Map" Link="https://www.hackerrank.com/challenges/cavity-map" />
 </challenges>
