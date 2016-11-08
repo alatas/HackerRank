@@ -47,6 +47,10 @@ My solutions to HackerRank challenges
 - [x] Larry's Array (Score: 40)
 - [x] The Grid Search (Score: 30)
 - [x] Cavity Map (Score: 30)
+- [x] Apple and Orange (Score: 10)
+- [x] Happy Ladybugs (Score: 30)
+- [x] Library Fine (Score: 15)
+- [x] Manasa and Stones (Score: 30)
 
 ##### Strings
 - [x] Morgan and a String (Score: 100)
@@ -79,6 +83,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v20 Added [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange), [Happy Ladybugs](https://www.hackerrank.com/challenges/happy-ladybugs), [Library Fine](https://www.hackerrank.com/challenges/library-fine), [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones)
 - v19 Added [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search), [Cavity Map](https://www.hackerrank.com/challenges/cavity-map)
 - v18 Added [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets), [Chocolate Feast ](https://www.hackerrank.com/challenges/chocolate-feast), [Larry's Array](https://www.hackerrank.com/challenges/larrys-array)
 - v17 Added [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted), [Service Lane](https://www.hackerrank.com/challenges/service-lane)
