@@ -14,6 +14,8 @@ My solutions to HackerRank challenges
 - [x] Time Conversion (Score: 15)
 - [x] Maximum Perimeter Triangle (Score: 20)
 - [x] Circular Array Rotation (Score: 20)
+- [x] Mini-Max Sum (Score: 10)
+- [x] Birthday Cake Candles (Score: 10)
 
 ##### Implementation
 - [x] Kangaroo (Score: 10)
@@ -83,6 +85,7 @@ Challenges\ChallengeId\Out\ | Challenge specific expected outputs
 
 ---
 ### Version History
+- v21 Added [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum), [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles)
 - v20 Added [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange), [Happy Ladybugs](https://www.hackerrank.com/challenges/happy-ladybugs), [Library Fine](https://www.hackerrank.com/challenges/library-fine), [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones)
 - v19 Added [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search), [Cavity Map](https://www.hackerrank.com/challenges/cavity-map)
 - v18 Added [Beautiful Triplets](https://www.hackerrank.com/challenges/beautiful-triplets), [Chocolate Feast ](https://www.hackerrank.com/challenges/chocolate-feast), [Larry's Array](https://www.hackerrank.com/challenges/larrys-array)

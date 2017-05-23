@@ -94,6 +94,7 @@
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
     <Compile Include="Challenges\BeautifulTriplets\Code.vb" />
     <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
+    <Compile Include="Challenges\BirthdayCakeCandles\Code.vb" />
     <Compile Include="Challenges\BomberMan\Code.vb" />
     <Compile Include="Challenges\BonAppetit\Code.vb" />
     <Compile Include="Challenges\CavityMap\Code.vb" />
@@ -122,6 +123,7 @@
     <Compile Include="Challenges\LisaWorkbook\Code.vb" />
     <Compile Include="Challenges\ManasaAndStones\Code.vb" />
     <Compile Include="Challenges\MaximumPerimeterTriangle\Code.vb" />
+    <Compile Include="Challenges\MiniMaxSum\Code.vb" />
     <Compile Include="Challenges\MinimumDistances\Code.vb" />
     <Compile Include="Challenges\MorganAndAString\Code.vb" />
     <Compile Include="Challenges\NonDivisibleSubset\Code.vb" />
@@ -206,6 +208,8 @@
     <Content Include="Challenges\BeautifulTriplets\Out\Out0.txt" />
     <Content Include="Challenges\BiggerIsGreater\In\In0.txt" />
     <Content Include="Challenges\BiggerIsGreater\Out\Out0.txt" />
+    <Content Include="Challenges\BirthdayCakeCandles\In\In0.txt" />
+    <Content Include="Challenges\BirthdayCakeCandles\Out\Out0.txt" />
     <Content Include="Challenges\BomberMan\In\In0.txt" />
     <Content Include="Challenges\BomberMan\In\In13.txt" />
     <Content Include="Challenges\BomberMan\Out\Out0.txt" />
@@ -289,6 +293,10 @@
     <Content Include="Challenges\MaximumPerimeterTriangle\In\In1.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out0.txt" />
     <Content Include="Challenges\MaximumPerimeterTriangle\Out\Out1.txt" />
+    <Content Include="Challenges\MiniMaxSum\In\In0.txt" />
+    <Content Include="Challenges\MiniMaxSum\In\In1.txt" />
+    <Content Include="Challenges\MiniMaxSum\Out\Out0.txt" />
+    <Content Include="Challenges\MiniMaxSum\Out\Out1.txt" />
     <Content Include="Challenges\MinimumDistances\In\In0.txt" />
     <Content Include="Challenges\MinimumDistances\In\In1.txt" />
     <Content Include="Challenges\MinimumDistances\Out\Out0.txt" />

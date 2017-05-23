@@ -55,4 +55,6 @@
   <challenge Score="30" Id="HappyLadybugs" Name="Happy Ladybugs" Link="https://www.hackerrank.com/challenges/happy-ladybugs" />
   <challenge Score="15" Id="LibraryFine" Name="Library Fine" Link="https://www.hackerrank.com/challenges/library-fine" />
   <challenge Score="30" Id="ManasaAndStones" Name="Manasa and Stones" Link="https://www.hackerrank.com/challenges/manasa-and-stones" />
+  <challenge Score="10" Id="MiniMaxSum" Name="Mini-Max Sum" Link="https://www.hackerrank.com/challenges/mini-max-sum" />
+  <challenge Score="10" Id="BirthdayCakeCandles" Name="Birthday Cake Candles" Link="https://www.hackerrank.com/challenges/birthday-cake-candles" />
 </challenges>
