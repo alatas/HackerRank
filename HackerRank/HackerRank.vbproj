@@ -93,10 +93,12 @@
     <Compile Include="Challenges\AshtonAndString\Code.vb" />
     <Compile Include="Challenges\AVeryBigSum\Code.vb" />
     <Compile Include="Challenges\BeautifulTriplets\Code.vb" />
+    <Compile Include="Challenges\BetweenTwoSets\Code.vb" />
     <Compile Include="Challenges\BiggerIsGreater\Code.vb" />
     <Compile Include="Challenges\BirthdayCakeCandles\Code.vb" />
     <Compile Include="Challenges\BomberMan\Code.vb" />
     <Compile Include="Challenges\BonAppetit\Code.vb" />
+    <Compile Include="Challenges\BreakingBestAndWorstRecords\Code.vb" />
     <Compile Include="Challenges\CavityMap\Code.vb" />
     <Compile Include="Challenges\ChallengeDef.vb" />
     <Compile Include="Challenges\ChocolateFeast\Code.vb" />
@@ -113,6 +115,7 @@
     <Compile Include="Challenges\FindAWord\Code.vb" />
     <Compile Include="Challenges\FindDigits\Code.vb" />
     <Compile Include="Challenges\FlatlandSpaceStations\Code.vb" />
+    <Compile Include="Challenges\Grading\Code.vb" />
     <Compile Include="Challenges\HappyLadybugs\Code.vb" />
     <Compile Include="Challenges\IdeIdentifyingComments\Code.vb" />
     <Compile Include="Challenges\JumpingOnTheCloudsRevisited\Code.vb" />
@@ -206,6 +209,8 @@
     <Content Include="Challenges\AVeryBigSum\Out\Out0.txt" />
     <Content Include="Challenges\BeautifulTriplets\In\In0.txt" />
     <Content Include="Challenges\BeautifulTriplets\Out\Out0.txt" />
+    <Content Include="Challenges\BetweenTwoSets\In\In0.txt" />
+    <Content Include="Challenges\BetweenTwoSets\Out\Out0.txt" />
     <Content Include="Challenges\BiggerIsGreater\In\In0.txt" />
     <Content Include="Challenges\BiggerIsGreater\Out\Out0.txt" />
     <Content Include="Challenges\BirthdayCakeCandles\In\In0.txt" />
@@ -218,6 +223,10 @@
     <Content Include="Challenges\BonAppetit\In\In6.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out0.txt" />
     <Content Include="Challenges\BonAppetit\Out\Out6.txt" />
+    <Content Include="Challenges\BreakingBestAndWorstRecords\In\In0.txt" />
+    <Content Include="Challenges\BreakingBestAndWorstRecords\In\In1.txt" />
+    <Content Include="Challenges\BreakingBestAndWorstRecords\Out\Out0.txt" />
+    <Content Include="Challenges\BreakingBestAndWorstRecords\Out\Out1.txt" />
     <Content Include="Challenges\CavityMap\In\In0.txt" />
     <Content Include="Challenges\CavityMap\Out\Out0.txt" />
     <Content Include="Challenges\Challenges.xml" />
@@ -261,6 +270,8 @@
     <Content Include="Challenges\FlatlandSpaceStations\Out\Out0.txt" />
     <Content Include="Challenges\FlatlandSpaceStations\Out\Out1.txt" />
     <Content Include="Challenges\FlatlandSpaceStations\Out\Out6.txt" />
+    <Content Include="Challenges\Grading\In\In0.txt" />
+    <Content Include="Challenges\Grading\Out\Out0.txt" />
     <Content Include="Challenges\HappyLadybugs\In\In0.txt" />
     <Content Include="Challenges\HappyLadybugs\In\In1.txt" />
     <Content Include="Challenges\HappyLadybugs\Out\Out0.txt" />
